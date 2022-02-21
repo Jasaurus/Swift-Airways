@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Swift Airways</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
+
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+  <!-- Bootstrap CSS -->
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'>
+<!-- Font Awesome CSS -->
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
+
+  <link href="assets/css/style.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'>
+<!-- Font Awesome CSS -->
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
+
+
+
+
+</head>
+
+<body>
+
+
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between"></div>
+      <div class="social-links d-none d-md-flex align-items-center">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div> 
+    </div>
+  </section><!-- End Top Bar-->
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div id="logoimg">
+      <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+    </div>
+    <div class="container d-flex justify-content-between">
+
+      <div id="logo">
+        
+        <h1><a href="index.html">Swift <span>Airways</span></a></h1>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" data-toggle="modal" data-target="#loginModal">Login</a></li>
+          <li><a class="nav-link scrollto" href="#">Travel Info</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs Section ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Guest Details</h2>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs Section -->
+
+    <section class="inner-page pt-4">
+      <div class="container">
+        <form action="" method="POST">
+          <div>
+            <label><p>Origin</p></label>
+            <select name="origin" id="originValue" >
+              <option value=""></option>
+              <option value="Batanes">Batanes</option>
+              <option value="Coron">Coron</option>
+              <option value="Lingayen">Lingayen</option>
+              <option value="Manila">Manila</option>
+              <option value="Ormoc">Ormoc</option>
+            </select>
+  
+            <label><p>Destination</p></label>
+            <select name="Destination" id="destValue" >
+              <option value=""></option>
+              <option value="Batanes">Batanes</option>
+              <option value="Coron">Coron</option>
+              <option value="Lingayen">Lingayen</option>
+              <option value="Manila">Manila</option>
+              <option value="Ormoc">Ormoc</option>
+            </select>
+          </div>
+          <div>
+            <label>Name</label>
+          </div>
+          <div>
+            <input name="fName" type="text" placeholder="First Name" id="fName">
+            <input name="lName" type="text" placeholder="Last Name" id="lName">
+          </div>
+          <div>
+            <label>Date of Birth</label>
+          </div>
+          <div>
+            <input placeholder="Birthday" class="textbox-n"  type="text" id="birthday" name="birthday" onfocus="(this.type='date')">
+          </div>
+          <div>
+            <label>Nationality</label>
+          </div>
+          <div>
+            <input name="nationality" type="text" id="nationality" placeholder="Nal">
+          </div>
+
+          <div>
+            <h2>Contact Info</h2>
+          </div>
+          <div>
+            <Label>Contact Number</Label>
+          </div>
+          <div>
+            <input type="text" name="contactNo" id="contactNo" placeholder="Mobile Number">
+          </div>
+          <div>
+            <Label>Alternate Contact Number</Label>
+          </div>
+          <div>
+            <input type="text" name="altcontactNo" id="altcontactNo" placeholder="Mobile Number">
+          </div>
+
+          <div>
+            <Label>Email</Label>
+          </div>
+          <div>
+            <input type="email" name="email" id="email" placeholder="@domain.com">
+          </div>
+          <div>
+            <Label>Retype Email</Label>
+          </div>
+          <div>
+            <input type="email" name="reEmail" id="reEmail" placeholder="@domain.com">
+          </div>
+
+          <button type="submit" class="btn btn-info btn-round">Submit</button>
+
+        </form>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Swift Airways</strong>. All Rights Reserved 2022
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
+  
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header border-bottom-0">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="form-title text-center">
+            <h4>Login</h4>
+          </div>
+          <div class="d-flex flex-column text-center">
+            <form>
+              <div class="form-group">
+                <input type="email" class="form-control" id="email1"placeholder="Email address">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" id="password1" placeholder="Password">
+              </div>
+              <button type="button" class="btn btn-info btn-block btn-round">Login</button>
+            </form>
+            
+            <div class="text-center text-muted delimiter"> </div>
+            <div class="d-flex justify-content-center social-buttons">
+             
+            </di>
+          </div>
+        </div>
+      </div>
+        <div class="modal-footer d-flex justify-content-center">
+          <div class="signup-section">Not a member yet? <a href="#a" class="text-info"> Sign Up</a>.</div>
+        </div>
+    </div>
+  </div>
+
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- jQuery -->
+<script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+<!-- Popper JS -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js'></script>
+<!-- Bootstrap JS -->
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
+
+</body>
+
+</html>
